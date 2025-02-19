@@ -9,10 +9,7 @@
   -webkit-animation-iteration-count: infinite;
 }
 
-@-webkit-keyframes float {
-  from {top: 0px;}
-  to {top: 200px;}
-  
+@-webkit-keyframes float{
   0%   { top: 0px;}
   50% { top: 25px;}
   100% {top: 0px;}}
