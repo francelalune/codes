@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+
+#float{
+  position: fixed;
+  -webkit-animation: float 5s ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes float {
+  from {top: 0px;}
+  to {top: 200px;}
+  
+  0%   { top: 0px;}
+  50% { top: 25px;}
+  100% {top: 0px;}}
+}
+
+
+</style>
+
+    <div id="float">
+        <img src="https://64.media.tumblr.com/aaf2928f380ee18a1ec8df8ee2f58e22/1344d483fa7247cf-7c/s75x75_c1/dcdc89fe697c4c6e531e5134fef22c670e4f0504.png" style="width:50px;">
+    </div>
+
+
+</body>
+</html>
